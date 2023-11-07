@@ -1,3 +1,10 @@
+# Edits to make
+
+1. Create version of this using static data from published NCL metro timetables https://www.nexus.org.uk/metro/timetables-stations first using Fawdon as the starting station. Can use same Dotmatrix font as original project, but the layout and messages are different
+2. Investigate whether there is an API available from Nexus - otherwise find another way for getting real-time data
+3. Config for each station - focus on Fawdon, Central Station, Monument, St. James and Haymarket
+
+
 # UK train departure screen
 
 > Python script to display replica real-time UK railway station departure screens for SSD13xx devices
@@ -55,5 +62,7 @@ $ python ./src/main.py --display ssd1322 --width 256 --height 64 --interface spi
 I've tweeted a video demo of the software running on a real device: https://twitter.com/chrishutchinson/status/1136743837244768257
 
 ## Thanks
+
+Chris Hutchinson originally built this code https://github.com/chrishutchinson/ which I am (attempting) to adapt for the Tyne & Wear Metro
 
 The fonts used were painstakingly put together by `DanielHartUK` and can be found on GitHub at https://github.com/DanielHartUK/Dot-Matrix-Typeface - A huge thanks for making that resource available!
